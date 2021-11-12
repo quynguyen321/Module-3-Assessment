@@ -1,0 +1,131 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+
+.profile-Card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+  }
+  
+  .title {
+	color: grey;
+	font-size: 18px;
+  }
+  .skill li {
+	
+	text-align: left;
+  }
+  .interests li {
+	
+	text-align: left;
+  }
+
+  .career-goal p{
+	  text-align: center;
+
+  }
+  
+  .favColor {
+	background-color: yellow;
+	border: none;
+    color: green;
+	padding: 15px 25px;
+  }
+  .favPlace{
+	background-color: yellow;
+	border: none;
+    color: blue;
+	padding: 15px 25px;
+  }
+  .favRitual{
+	background-color: yellow;
+	border: none;
+    color: red;
+	padding: 15px 25px;
+  }
+
+
+
+
+
+  .flip-card {
+	background-color: transparent;
+	width: 300px;
+	height: 200px;
+	border: 1px solid #f1f1f1;
+	perspective: 1000px;
+  }
+	.flip-card-inner {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		transition: transform 0.8s;
+		transform-style: preserve-3d;
+	  }
+
+	  .flip-card:hover .flip-card-inner {
+		transform: rotateY(180deg);
+	  }
+	  .flip-card-front, .flip-card-back {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		-webkit-backface-visibility: hidden; 
+		backface-visibility: hidden;
+	  }
+	  .flip-card-front {
+		background-color: #bbb;
+		color: black;
+	  }
+	  .flip-card-back {
+		background-color: dodgerblue;
+		color: white;
+		transform: rotateY(180deg);
+	  }
+
+	  
+	  #btnSearch{
+		background-color: #fff;
+		border: none;
+		color: red;
+		padding: 15px 25px;
+	  }
